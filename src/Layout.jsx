@@ -12,7 +12,7 @@ const Layout = () => {
         padding: "1rem",
         backgroundColor: "#f13710",
         color: "#fff",
-        boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
+        boxShadow: "0 2px 4px rgba(41, 42, 104, 0.1)"
       }}>
         <nav style={{
           maxWidth: "1200px",
@@ -21,12 +21,13 @@ const Layout = () => {
           justifyContent: "space-between",
           alignItems: "center"
         }}>
-          <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
-            Mi Aplicación
+          <div style={{ fontSize: "1.3rem", fontWeight: "bold" }}>
+            Mi App
           </div>
           <div>
             <Link to="/" style={navLinkStyle}>Home</Link>
             <Link to="/about" style={navLinkStyle}>Acerca de</Link>
+            <Link to="/about" style={navLinkStyle}>Luis Armando</Link>
           </div>
         </nav>
       </header>
